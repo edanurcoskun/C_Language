@@ -40,7 +40,7 @@ int main(){
 	bool isElement=false;
 	bool control=true;
 	while(control){
-		for(j=1; j<N-1; j++){ // ilk basta i=0 olduðu için ilk satirdaki en kücügü bulmaya calisiyor
+		for(j=1; j<N-1; j++){ // ilk basta i=0 olduÃ°u iÃ§in ilk satirdaki en kÃ¼cÃ¼gÃ¼ bulmaya calisiyor
 			if(A[i][a]!=0 && A[i][j+1]!=0){
 				if(A[i][a]>A[i][j+1]){
 					a=j+1;
@@ -67,7 +67,7 @@ int main(){
 			i=a;
 			a=1;
 			j=1;
-			if((N-b)==1){  // N 3ten fazla girildiginde sonsuz döngü oluyor???
+			if((N-b)==1){  // N 3ten fazla girildiginde sonsuz dÃ¶ngÃ¼ oluyor???
 				Ar[b+1]=1;
 				result=result+A[i][0];
 				control=false;
